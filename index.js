@@ -50,7 +50,7 @@ function nextSequence(){
 }
 
 function playSound(userChoosen){
-  var audio = new Audio("Sounds/"+userChoosen+".mp3");
+  var audio = new Audio("sounds/"+userChoosen+".mp3");
   audio.play();
 }
 
